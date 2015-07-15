@@ -7,7 +7,7 @@
 new_ip="$1"
 
 named_dir="/var/named"
-zone="np-test.com"
+zone="example.com"
 zone_file="$named_dir/$zone.db"
 server_host="server"
 server_fqdn="$server_host.$zone."
